@@ -1,5 +1,6 @@
 [settings]
 minimum_release_age = "7d"
+locked = true
 
 [tools]
 prek = "latest"
