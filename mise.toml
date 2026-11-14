@@ -5,7 +5,7 @@ locked = true
 [tools]
 prek = "latest"
 python = "3.15.2"
-"pipx:gha-update" = "latest"
+"pypi:gha-update" = "latest"
 
 [env]
 _.python.venv = { path = ".venv", create = true }

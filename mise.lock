@@ -2,12 +2,6 @@
 
 lockfile_version = 4
 
-[[tools."pipx:gha-update"]]
-version = "0.2.0"
-backend = "pipx:gha-update"
-specifiers = ["latest"]
-uv = { path = ".mise/locks/pipx-gha-update/0.2.0", digest = "sha256:8215d437bcd95238c6cfaaea9ae7aef35cdc3178067d53db0b64884144bea0b3" }
-
 [[tools.prek]]
 version = "0.5.10"
 backend = "aqua:j178/prek"
@@ -54,6 +48,12 @@ checksum = "sha256:4a506e19a95a1bbf40f304b245446c32078c7be4d5b7e4cb412ea93a0cf8b
 url = "https://github.com/j178/prek/releases/download/v0.5.10/prek-x86_64-pc-windows-msvc.zip"
 url_api = "https://api.github.com/repos/j178/prek/releases/assets/707839436"
 provenance = "github-attestations"
+
+[[tools."pypi:gha-update"]]
+version = "0.2.0"
+backend = "pypi:gha-update"
+specifiers = ["latest"]
+uv = { path = ".mise/locks/pypi-gha-update/0.2.0", digest = "sha256:480904afa353f72a061b74965f05e9b93ae03f09816f154cc842a7b1916d5385" }
 
 [[tools.python]]
 version = "3.15.2"
